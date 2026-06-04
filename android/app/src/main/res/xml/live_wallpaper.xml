@@ -1,0 +1,5 @@
+<wallpaper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="Live Video Wallpaper"
+    android:thumbnail="@mipmap/ic_launcher"
+    android:settingsActivity="" />

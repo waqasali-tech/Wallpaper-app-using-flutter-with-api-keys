@@ -1,0 +1,49 @@
+name: final_project
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.0.0
+  
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  firebase_database: ^11.0.2
+  google_sign_in: ^6.3.0
+  speech_to_text: ^7.0.0
+  day_night_switcher: ^0.2.0
+  permission_handler: ^12.0.0+1
+  cached_network_image: ^3.3.1
+  video_player: ^2.10.0
+  visibility_detector: ^0.4.0+2
+  modal_bottom_sheet: ^3.0.0
+  lottie: ^1.2.1 # For using Lottie animations
+  liquid_pull_to_refresh: ^3.0.1
+ 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  curved_navigation_bar: ^1.0.3
+  http: ^1.4.0
+  cached_network_image: ^3.3.1
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-SemiBold.ttf

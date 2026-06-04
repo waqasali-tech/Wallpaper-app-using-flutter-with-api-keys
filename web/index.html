@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="$FLUTTER_BASE_HREF" />
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="A new Flutter project." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="final_project" />
+    
+    <!-- ✅ Google Sign-In Client ID -->
+    <meta name="google-signin-client_id" content="185926144423-f34dpkjkh3jm7su9q3gsuedo5kn49srl.apps.googleusercontent.com" />
+
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>final_project</title>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <!-- ✅ Firebase JS SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+
+    <!-- ✅ Firebase Configuration -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyA2RpZecZl4RWonaEejB-56WxHNqynye8Q",
+        authDomain: "wallpaperappp-d6d3f.firebaseapp.com",
+        projectId: "wallpaperappp-d6d3f",
+        storageBucket: "wallpaperappp-d6d3f.appspot.com",
+        messagingSenderId: "185926144423",
+        appId: "1:185926144423:web:8a90b8b2945c1ddb166682"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- ✅ Flutter App Bootstrap -->
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
+</html>
